@@ -6,9 +6,9 @@ trabalhoX = int(input("Digite o tempo do trabalhoX"))
 trabalhoY = int(input("Digite o tempo do trabalhoY"))
 trabalhoZ = int(input("Digite o tempo do trabalhoZ"))
 
+numero = 20
 if any > 0 :
     print("Tempo positivo.")
-elif any < 0 :
+else:
     print("Tempo negativo.")
 
-    #não finalizado.
