@@ -12,3 +12,5 @@ if any > 0 :
 else:
     print("Tempo negativo.")
 
+    #não finalizado.
+
