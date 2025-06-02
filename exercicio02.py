@@ -6,11 +6,13 @@ trabalhoX = int(input("Digite o tempo do trabalhoX"))
 trabalhoY = int(input("Digite o tempo do trabalhoY"))
 trabalhoZ = int(input("Digite o tempo do trabalhoZ"))
 
-numero = 20
-if any > 0 :
-    print("Tempo positivo.")
+soma = trabalhoX + trabalhoY + trabalhoZ
+if trabalhoX < 0:
+     print("ERRO! Seu tempo foi negativo.")
+elif trabalhoY < 0:
+     print("ERRO! Seu tempo foi negativo.")
+elif trabalhoZ < 0:
+     print("ERRO! Seu tempo foi negativo.")
 else:
-    print("Tempo negativo.")
-
-    #não finalizado.
+    print("Seu tempo foi:" , soma)
 
