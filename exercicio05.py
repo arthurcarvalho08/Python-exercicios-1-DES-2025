@@ -10,3 +10,5 @@ elif consumo > 100 :
     print("Você ultrapassou o limite.")
 else:
     print("Cuidado, vocẽ chegou ao limte!")
+
+#finalizado.

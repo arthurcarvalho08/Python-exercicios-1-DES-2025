@@ -6,7 +6,7 @@ velocidade = int(input("Digite a velocidade média."))
 
 if velocidade <5 :
     print("Lenta.")
-elif velocidade >= 5 <=10 :
+elif velocidade >= 5 == 10 :
     print("Moderado.")
 else:
     print("Rápido.")
