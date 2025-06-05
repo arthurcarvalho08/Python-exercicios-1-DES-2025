@@ -8,6 +8,6 @@ if umidade > 70 :
     print("Umidade acima do permitido.")
 
 elif umidade < 70 :
-    print("Umidade acima do permitido.")
+    print("Umidade permitida.")
 
-#não finalizado.
+

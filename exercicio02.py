@@ -16,3 +16,5 @@ elif trabalhoZ < 0:
 else:
     print("Seu tempo foi:" , soma)
 
+#finalizado
+

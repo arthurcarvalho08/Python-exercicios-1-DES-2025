@@ -14,3 +14,5 @@ elif curso02 > curso01 :
 else:
     print("Ambos os cursos tem a mesma quantidade de acessos.")
 
+#finalizado
+
