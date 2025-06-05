@@ -4,3 +4,7 @@
 # De 51 a 150 km: R$ 15,00
 # Acima de 150 km: R$ 25,00
 
+distancia = int(input("Digite a distância em km."))
+
+if distancia == 50 :
+    print("O preço ")
