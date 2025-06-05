@@ -3,10 +3,9 @@
 
 hora = int(input("Digite a hora atual."))
 
-if hora >= 9 < 21 :
-    print("A plataforma pode ser acessada.")
+if hora >= 9 :
+    print("Acesso permitido.")
+elif hora > 21 :
+    print("Acesso negado.")
 else:
-    print("A plataforma não pode ser acessada.")
-
-    #não finalizado.
-
+    print("Acesso negado.")
