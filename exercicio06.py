@@ -5,7 +5,7 @@ acesso_plataforma = int(input("Digite o horário quer você está tentando acess
 
 if acesso_plataforma == 9:
     print("Horario autorizado.")
-elif acesso_plataforma == 21:
+elif acesso_plataforma <= 21:
     print("Horario autorizado.")
 else:
     print("Horário não autorizado.")
