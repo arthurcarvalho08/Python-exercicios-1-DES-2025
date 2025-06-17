@@ -1,0 +1,11 @@
+email = input("Digite seu e-mail:")
+email_do_destinatario = input("Digite o e-mail do destinatário:")
+destinatario = input("Digite o nome do destinatário:")
+mensagem = input("Digite sua mensagem:")
+remetente = input("Digite seu nome:")
+
+print("\n--- Sua carta ---")
+print(f"Olá {destinatario},\n\n{mensagem}\n\nAtenciosamente,\n{remetente}")
+print("EMAIL ENVIADO!")
+print(f"ENVIADO PARA {destinatario}")
+print("17/06/2025.")
