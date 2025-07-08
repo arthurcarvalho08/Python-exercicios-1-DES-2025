@@ -1,54 +1,12 @@
-cadastros: dict[str, str] = {}
+nome_correto = "admin"
+senha_correta = "1234"
 
-rodando = True
+login = input("Digite seu nome de usuário:")
+senha = input("Digite sua senha:")
 
-def cadastro():
-    print('Cadastrando...')
-    var_login = str(input('Login: '))
-    var_senha = str(input('Senha: '))
+if login == nome_correto and senha == senha_correta:
+    print("Acesso concedido.")
+else:
+    print("Acesso negado.")
 
-    try:
-        if var_login in cadastros.keys():
-            raise Exception('\nLogin já cadastrado')
-        
-    except Exception as e:
-        print('\nErro ao cadastrar: ', e)
-
-    cadastros[var_login] = var_senha
-    return
-
-def login():
-    print('Logando...')
-    var_login = str(input('Login: '))
-    var_senha = str(input('Senha: '))
-
-    try:
-        if var_login not in cadastros.keys():
-            raise Exception('\nEsse login não existe')
-            
-        if cadastros[var_login] != var_senha:
-            raise Exception('\nSenha incorreta')
-
-        print('\nLogin realizado com sucesso!')
-    except Exception as e:
-        print(e)
-
-while (rodando):
-
-    print('-------------')
-    print("1.: Cadastrar")
-    print("2.:     Logar")
-    print("0.:      Sair")
-    print('-------------\n')
-    selecao = int(input('Escolha: '))
-    
-    match (selecao):
-        case 1:
-            cadastro()
-        case 2:
-            login()
-        case 0:
-            rodando = False
-            break
-        case _:
-            print('\nOpção inválida, escolha uma opção válida')
+#finalizado
